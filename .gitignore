@@ -1,0 +1,22 @@
+# секреты и окружение
+.env
+*.env
+
+# база данных
+*.db
+*.db-wal
+*.db-shm
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# артефакты сборки/доставки
+*.zip
+
+# служебные папки хоста
+.zwork/
+.DS_Store
